@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dapur Nusa Katering - Katering rumahan untuk acara Anda. Paket nasi box, snack box, dan prasmanan dengan harga terjangkau.">
+  <title>Dapur Nusa Katering - Katering Rumahan Terbaik</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#beranda" class="logo">
+        <span class="logo__icon">🍽️</span>
+        <span class="logo__text">Dapur <strong>Nusa</strong></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#beranda" class="nav__link">Beranda</a>
+        <a href="#paket" class="nav__link">Paket</a>
+        <a href="#galeri" class="nav__link">Galeri</a>
+        <a href="#testimoni" class="nav__link">Testimoni</a>
+        <a href="#kontak" class="nav__link">Kontak</a>
+        <a href="#pesan" class="nav__link nav__link--cta">Pesan Sekarang</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">Katering Rumahan • Sejak 2018</span>
+          <h1 class="hero__title">Katering Lezat untuk <span>Setiap Acara</span> Anda</h1>
+          <p class="hero__desc">Nasi box, snack box, dan prasmanan dengan bahan segar, harga terjangkau, dan pengiriman tepat waktu. Cocok untuk rapat kantor, ulang tahun, hingga acara keluarga.</p>
+          <div class="hero__actions">
+            <a href="#paket" class="btn btn--primary">Lihat Paket</a>
+            <a href="#pesan" class="btn btn--outline">Pesan via WhatsApp</a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat"><strong>500+</strong><span>Acara Terlayani</span></div>
+            <div class="stat"><strong>4.9/5</strong><span>Rating Pelanggan</span></div>
+            <div class="stat"><strong>100%</strong><span>Halal & Segar</span></div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__card">
+            <div class="hero__emoji">🍛</div>
+            <div class="hero__card-info">
+              <span>Paket Hari Ini</span>
+              <strong>Nasi Box Spesial</strong>
+              <em>Mulai Rp 45.000/pax</em>
+            </div>
+          </div>
+          <div class="hero__card hero__card--2">
+            <div class="hero__emoji">🥗</div>
+            <div class="hero__card-info">
+              <span>Menu Baru</span>
+              <strong>Salad Bowl Sehat</strong>
+              <em>Mulai Rp 35.000/pax</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paket" id="paket">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Paket Menu</span>
+          <h2>Pilih Paket Sesuai Acara Anda</h2>
+          <p>Semua paket sudah termasuk peralatan saji, sendok garpu, dan air minum.</p>
+        </div>
+        <div class="paket__grid">
+          <article class="paket__card">
+            <div class="paket__icon">🍱</div>
+            <h3>Paket Hemat</h3>
+            <div class="paket__price">Rp 25.000<span>/pax</span></div>
+            <ul class="paket__list">
+              <li>Nasi + 1 lauk utama</li>
+              <li>1 sayur + sambal</li>
+              <li>Air mineral cup</li>
+              <li>Minimal 20 pax</li>
+            </ul>
+            <button class="btn btn--primary btn--full" data-paket="Paket Hemat - Rp 25.000/pax">Pilih Paket</button>
+          </article>
+          <article class="paket__card paket__card--featured">
+            <span class="paket__label">Terlaris</span>
+            <div class="paket__icon">🍲</div>
+            <h3>Paket Spesial</h3>
+            <div class="paket__price">Rp 45.000<span>/pax</span></div>
+            <ul class="paket__list">
+              <li>Nasi + 2 lauk utama</li>
+              <li>2 sayur + sambal + kerupuk</li>
+              <li>Air mineral + buah potong</li>
+              <li>Minimal 15 pax</li>
+            </ul>
+            <button class="btn btn--primary btn--full" data-paket="Paket Spesial - Rp 45.000/pax">Pilih Paket</button>
+          </article>
+          <article class="paket__card">
+            <div class="paket__icon">🍽️</div>
+            <h3>Paket Prasmanan</h3>
+            <div class="paket__price">Rp 65.000<span>/pax</span></div>
+            <ul class="paket__list">
+              <li>5 pilihan lauk utama</li>
+              <li>4 sayur + dessert</li>
+              <li>Pramusaji + peralatan</li>
+              <li>Minimal 30 pax</li>
+            </ul>
+            <button class="btn btn--primary btn--full" data-paket="Paket Prasmanan - Rp 65.000/pax">Pilih Paket</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="galeri" id="galeri">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Galeri</span>
+          <h2>Hasil Dapur Kami</h2>
+          <p>Beberapa contoh sajian yang pernah kami kirim ke pelanggan.</p>
+        </div>
+        <div class="galeri__grid">
+          <div class="galeri__item"><div class="galeri__emoji">🍛</div><span>Nasi Box Spesial</span></div>
+          <div class="galeri__item"><div class="galeri__emoji">🥗</div><span>Salad Bowl</span></div>
+          <div class="galeri__item"><div class="galeri__emoji">🍢</div><span>Snack Box</span></div>
+          <div class="galeri__item"><div class="galeri__emoji">🍱</div><span>Bento Anak</span></div>
+          <div class="galeri__item"><div class="galeri__emoji">🍰</div><span>Dessert Box</span></div>
+          <div class="galeri__item"><div class="galeri__emoji">🥘</div><span>Prasmanan</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimoni" id="testimoni">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Testimoni</span>
+          <h2>Kata Pelanggan Kami</h2>
+          <p>Kepercayaan mereka adalah kebanggaan kami.</p>
+        </div>
+        <div class="testimoni__grid">
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★★</div>
+            <p>"Pesan untuk rapat kantor, datang tepat waktu dan rasanya enak banget. Semua rekan kerja pada tanya dari mana pesannya!"</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">RA</div>
+              <div><strong>Rina Anggraini</strong><span>HRD, PT Maju Jaya</span></div>
+            </div>
+          </article>
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★★</div>
+            <p>"Ulang tahun anak pakai paket prasmanan, tamu pada puas. Harganya masih terjangkau untuk kualitas segini. Recommended!"</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">BS</div>
+              <div><strong>Budi Santoso</strong><span>Wirausaha</span></div>
+            </div>
+          </article>
+          <article class="testimoni__card">
+            <div class="testimoni__stars">★★★★★</div>
+            <p>"Sudah 5x pesan untuk acara pengajian RT. Selalu konsisten enak dan porsinya banyak. Pelayanannya ramah juga."</p>
+            <div class="testimoni__author">
+              <div class="testimoni__avatar">MW</div>
+              <div><strong>Mariati Wijaya</strong><span>Ibu Rumah Tangga</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pesan" id="pesan">
+      <div class="container pesan__inner">
+        <div class="pesan__info">
+          <span class="badge">Pesan Sekarang</span>
+          <h2>Amankan Katering untuk Acara Anda</h2>
+          <p>Isi formulir di samping, lalu lanjutkan ke pembayaran online. Pesanan Anda akan diproses maksimal 1×24 jam.</p>
+          <ul class="pesan__points">
+            <li>✔️ Bayar online: QRIS, transfer bank, e-wallet</li>
+            <li>✔️ Konfirmasi cepat via WhatsApp</li>
+            <li>✔️ Bisa jadwal pesan H-1</li>
+            <li>✔️ Gratis ongkir area dalam kota</li>
+          </ul>
+        </div>
+        <form class="pesan__form" id="orderForm">
+          <h3>Formulir Pesanan</h3>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="nama">Nama Lengkap</label>
+              <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso" required>
+            </div>
+            <div class="form__group">
+              <label for="hp">No. WhatsApp</label>
+              <input type="tel" id="hp" name="hp" placeholder="08xxxxxxxxxx" required>
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="paket">Paket yang Dipilih</label>
+            <select id="paket" name="paket" required>
+              <option value="">-- Pilih Paket --</option>
+              <option value="Paket Hemat - Rp 25.000/pax">Paket Hemat - Rp 25.000/pax</option>
+              <option value="Paket Spesial - Rp 45.000/pax">Paket Spesial - Rp 45.000/pax</option>
+              <option value="Paket Prasmanan - Rp 65.000/pax">Paket Prasmanan - Rp 65.000/pax</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="jumlah">Jumlah Pax</label>
+              <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Contoh: 30" required>
+            </div>
+            <div class="form__group">
+              <label for="tanggal">Tanggal Acara</label>
+              <input type="date" id="tanggal" name="tanggal" required>
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="alamat">Alamat Pengiriman</label>
+            <textarea id="alamat" name="alamat" rows="3" placeholder="Alamat lengkap acara..." required></textarea>
+          </div>
+          <div class="form__total">
+            <span>Perkiraan Total</span>
+            <strong id="totalHarga">Rp 0</strong>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Lanjut ke Pembayaran</button>
+          <p class="form__note">Demo pembayaran — tidak ada transaksi nyata.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="kontak" id="kontak">
+      <div class="container">
+        <div class="section__head">
+          <span class="badge">Kontak</span>
+          <h2>Hubungi Kami</h2>
+          <p>Ada pertanyaan? Kami siap membantu setiap hari.</p>
+        </div>
+        <div class="kontak__grid">
+          <div class="kontak__card">
+            <div class="kontak__icon">📍</div>
+            <h4>Alamat</h4>
+            <p>Jl. Melati Raya No. 12,<br>Kel. Sukamaju, Kota Bandung</p>
+          </div>
+          <div class="kontak__card">
+            <div class="kontak__icon">📱</div>
+            <h4>WhatsApp</h4>
+            <p>0812-3456-7890<br>Senin–Sabtu, 08.00–20.00</p>
+          </div>
+          <div class="kontak__card">
+            <div class="kontak__icon">📧</div>
+            <h4>Email</h4>
+            <p>halo@dapurnusa.id<br>balasan maks. 1×24 jam</p>
+          </div>
+          <div class="kontak__card">
+            <div class="kontak__icon">📸</div>
+            <h4>Instagram</h4>
+            <p>@dapurnusa.katering<br>Follow untuk menu mingguan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__icon">🍽️</span>
+        <span class="logo__text">Dapur <strong>Nusa</strong></span>
+        <p>Katering rumahan untuk setiap acara. Halal, segar, dan tepat waktu.</p>
+      </div>
+      <div class="footer__links">
+        <h5>Navigasi</h5>
+        <a href="#paket">Paket</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#pesan">Pesan</a>
+      </div>
+      <div class="footer__links">
+        <h5>Layanan</h5>
+        <a href="#paket">Nasi Box</a>
+        <a href="#paket">Snack Box</a>
+        <a href="#paket">Prasmanan</a>
+        <a href="#paket">Katering Acara</a>
+      </div>
+      <div class="footer__links">
+        <h5>Ikuti Kami</h5>
+        <a href="#kontak">Instagram</a>
+        <a href="#kontak">WhatsApp</a>
+        <a href="#kontak">TikTok</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 Dapur Nusa Katering. Website demo untuk keperluan portofolio.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="paymentModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box">
+      <button class="modal__close" data-close aria-label="Tutup">×</button>
+
+      <div class="modal__step" id="stepMethod">
+        <h3>Pilih Metode Pembayaran</h3>
+        <p class="modal__order-info" id="orderSummary"></p>
+        <div class="pay__methods">
+          <button class="pay__method" data-method="qris">
+            <span class="pay__icon">📱</span>
+            <span><strong>QRIS</strong><small>Scan dengan e-wallet / m-banking</small></span>
+          </button>
+          <button class="pay__method" data-method="transfer">
+            <span class="pay__icon">🏦</span>
+            <span><strong>Transfer Bank</strong><small>BCA / Mandiri / BRI</small></span>
+          </button>
+          <button class="pay__method" data-method="ewallet">
+            <span class="pay__icon">👛</span>
+            <span><strong>E-Wallet</strong><small>GoPay / OVO / DANA / ShopeePay</small></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal__step" id="stepQris" hidden>
+        <h3>Bayar via QRIS</h3>
+        <p class="modal__amount" id="qrisAmount"></p>
+        <div class="qris__code" id="qrisCode"></div>
+        <p class="modal__hint">Buka aplikasi e-wallet atau m-banking, pilih menu QRIS, lalu scan kode di atas.</p>
+        <button class="btn btn--primary btn--full" id="simulateQris">Simulasikan Pembayaran Berhasil</button>
+      </div>
+
+      <div class="modal__step" id="stepTransfer" hidden>
+        <h3>Bayar via Transfer Bank</h3>
+        <p class="modal__amount" id="transferAmount"></p>
+        <div class="bank__box">
+          <div class="bank__row"><span>Bank</span><strong>BCA</strong></div>
+          <div class="bank__row"><span>No. Rekening</span><strong id="vaNumber">8890 1234 5678</strong></div>
+          <div class="bank__row"><span>a.n.</span><strong>PT Dapur Nusa Nusantara</strong></div>
+          <div class="bank__row bank__row--total"><span>Total Transfer</span><strong id="transferTotal"></strong></div>
+        </div>
+        <p class="modal__hint">Transfer sesuai nominal, lalu unggah bukti transfer via WhatsApp.</p>
+        <button class="btn btn--primary btn--full" id="simulateTransfer">Simulasikan Pembayaran Berhasil</button>
+      </div>
+
+      <div class="modal__step" id="stepEwallet" hidden>
+        <h3>Bayar via E-Wallet</h3>
+        <p class="modal__amount" id="ewalletAmount"></p>
+        <div class="ewallet__apps">
+          <span>GoPay</span><span>OVO</span><span>DANA</span><span>ShopeePay</span>
+        </div>
+        <p class="modal__hint">Anda akan diarahkan ke aplikasi e-wallet pilihan untuk menyelesaikan pembayaran.</p>
+        <button class="btn btn--primary btn--full" id="simulateEwallet">Simulasikan Pembayaran Berhasil</button>
+      </div>
+
+      <div class="modal__step modal__step--success" id="stepSuccess" hidden>
+        <div class="success__icon">✅</div>
+        <h3>Pembayaran Berhasil!</h3>
+        <p>Terima kasih, pesanan Anda telah kami terima. Tim Dapur Nusa akan menghubungi Anda via WhatsApp dalam 1×24 jam untuk konfirmasi.</p>
+        <div class="success__code" id="orderCode"></div>
+        <button class="btn btn--primary btn--full" data-close>Selesai</button>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/6281234567890?text=Halo%20Dapur%20Nusa%2C%20saya%20mau%20pesan%20katering" class="wa__float" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="#fff"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.7.9 3.6 1.4 5.6 1.4h.2c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.3l-.4-.2-4.9.9.9-4.7-.3-.4C5.2 17.6 4.8 16.3 4.8 15 4.8 9 9.6 4.2 16 4.2S27.2 9 27.2 15 22.4 25.8 16 25.8zm6.2-7.4c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.5 3.8 6 5.3.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
